@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dmitr\\Downloads\\Autosalon-Xamarin.Forms-master\\Autosalon-Xamarin.Forms-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D06D597-C114-4654-86A4-8B7F8C990CC1}|AutoPodbor\\AutoPodbor\\AutoPodbor.csproj|c:\\users\\dmitr\\downloads\\autosalon-xamarin.forms-master\\autosalon-xamarin.forms-master\\autopodbor\\autopodbor\\main.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{4D06D597-C114-4654-86A4-8B7F8C990CC1}|AutoPodbor\\AutoPodbor\\AutoPodbor.csproj|solutionrelative:autopodbor\\autopodbor\\main.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D06D597-C114-4654-86A4-8B7F8C990CC1}|AutoPodbor\\AutoPodbor\\AutoPodbor.csproj|c:\\users\\dmitr\\downloads\\autosalon-xamarin.forms-master\\autosalon-xamarin.forms-master\\autopodbor\\autopodbor\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D06D597-C114-4654-86A4-8B7F8C990CC1}|AutoPodbor\\AutoPodbor\\AutoPodbor.csproj|solutionrelative:autopodbor\\autopodbor\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\Downloads\\Autosalon-Xamarin.Forms-master\\Autosalon-Xamarin.Forms-master\\AutoPodbor\\AutoPodbor\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "AutoPodbor\\AutoPodbor\\Main.xaml.cs",
+              "ToolTip": "C:\\Users\\dmitr\\Downloads\\Autosalon-Xamarin.Forms-master\\Autosalon-Xamarin.Forms-master\\AutoPodbor\\AutoPodbor\\Main.xaml.cs",
+              "RelativeToolTip": "AutoPodbor\\AutoPodbor\\Main.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:19:01.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "C:\\Users\\dmitr\\Downloads\\Autosalon-Xamarin.Forms-master\\Autosalon-Xamarin.Forms-master\\AutoPodbor\\AutoPodbor\\Main.xaml",
+              "RelativeDocumentMoniker": "AutoPodbor\\AutoPodbor\\Main.xaml",
+              "ToolTip": "C:\\Users\\dmitr\\Downloads\\Autosalon-Xamarin.Forms-master\\Autosalon-Xamarin.Forms-master\\AutoPodbor\\AutoPodbor\\Main.xaml",
+              "RelativeToolTip": "AutoPodbor\\AutoPodbor\\Main.xaml",
+              "ViewState": "AQIAALEAAAAAAAAAAAAUwLwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T12:39:58.085Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

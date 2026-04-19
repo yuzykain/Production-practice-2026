@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.AdminPanel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="AdminPanel"
+    BackgroundColor="Black"
+    BackgroundImageSource="background2.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Margin="0,25,0,0"
+                FontAttributes="Bold"
+                FontSize="35"
+                HorizontalOptions="Center"
+                Text="Админ-Панель"
+                TextColor="White" />
+            
+            <ScrollView>
+                <RefreshView RefreshColor="Teal" x:Name="refresh" Refreshing="refresh_Refreshing">
+                    <ListView x:Name="requestsList" ItemTapped="requestsList_ItemTapped" SeparatorColor="White" HeightRequest="350"/>
+                </RefreshView>
+            </ScrollView>
+            <Label
+                Margin="0,25,0,0"
+                FontAttributes="Bold"
+                FontSize="22"
+                HorizontalOptions="Center"
+                Text="1. Tesla Model X - 10 исп."
+                TextColor="White" />
+            <Label
+                Margin="0,5,0,0"
+                FontAttributes="Bold"
+                FontSize="22"
+                HorizontalOptions="Center"
+                Text="2. BMW G30 - 4 исп."
+                TextColor="White" />
+            <Label
+                Margin="0,5,0,0"
+                FontAttributes="Bold"
+                FontSize="22"
+                HorizontalOptions="Center"
+                Text="2. Tesla Model S - 3 исп."
+                TextColor="White" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

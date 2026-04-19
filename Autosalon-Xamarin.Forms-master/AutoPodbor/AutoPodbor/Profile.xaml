@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.Profile"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Профиль"
+    BackgroundColor="Black"
+    BackgroundImageSource="backgroundProfile.png"
+    IconImageSource="accountIcon.png">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Padding="26,150,41,0"
+                FontAttributes="Bold"
+                FontFamily="OpenSans-Bold2.ttf"
+                FontSize="48"
+                Text="Выбери авто по душе!"
+                TextColor="White" />
+            <Grid
+                Padding="26,20,10,0"
+                ColumnDefinitions="Auto, Auto,Auto"
+                RowDefinitions="Auto,Auto">
+                <Button
+                    x:Name="AuthButton"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    BackgroundColor="Black"
+                    BorderColor="White"
+                    BorderWidth="2"
+                    Clicked="AuthButton_Clicked"
+                    CornerRadius="15"
+                    FontAttributes="Bold"
+                    FontFamily="OpenSans-Bold2.ttf"
+                    FontSize="16"
+                    HeightRequest="56"
+                    Opacity="0.7"
+                    Text="Авторизация"
+                    TextColor="White"
+                    WidthRequest="165" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

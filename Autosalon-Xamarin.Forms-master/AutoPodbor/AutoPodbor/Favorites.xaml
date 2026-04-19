@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.Favorites"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Избранное"
+    BackgroundColor="Black"
+    BackgroundImageSource="background2.png"
+    IconImageSource="favoritesIcon.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <RefreshView Refreshing="RefreshView_Refreshing" x:Name="refresh">
+                <ScrollView x:Name="List">
+                <StackLayout>
+                    <Label
+                        Margin="27,45,0,0"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        Text="Избраное"
+                        TextColor="White" />
+                    <Label
+                        Margin="28,8,20,0"
+                        FontSize="14"
+                        Text="Сдесь сохранены автоимобили, которые Вам понравились."
+                        TextColor="#E2E2E2" />
+
+                    <Frame x:Name="Frame1"
+                        Margin="5,0,5,0"
+                        BackgroundColor="Transparent"
+                        CornerRadius="12"
+                        HeightRequest="415"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start">
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_1"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                Source="noAutoImg.png"
+                                VerticalOptions="Start"
+                                WidthRequest="350" />
+                            <Frame
+                                Margin="0,0,0,0"
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="EndAndExpand"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="45" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_1"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="NoN"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_1"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="NoN"
+                                        TextColor="#E2E2E2" />
+                                    <Button
+                                        x:Name="moreButton_1"
+                                        Grid.Row="3"
+                                        Grid.Column="0"
+                                        BackgroundColor="#1F6BFF"
+                                        BorderColor="#82A5FF"
+                                        BorderWidth="1"
+                                        Clicked="moreButton_1_Clicked"
+                                        CornerRadius="7"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Bold2.ttf"
+                                        FontSize="12"
+                                        HeightRequest="40"
+                                        HorizontalOptions="Start"
+                                        Text="Подробнее"
+                                        TextColor="White"
+                                        WidthRequest="125" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <Frame
+                        x:Name="Frame2"
+                        Margin="10,15,10,0"
+                        BackgroundColor="Transparent"
+                        HeightRequest="415">
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_2"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                HorizontalOptions="Center"
+                                Source="noAutoImg.png"
+                                VerticalOptions="Start"
+                                WidthRequest="350" />
+                            <Frame
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="End"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="45" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_2"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="NoN"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_2"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="NoN"
+                                        TextColor="#E2E2E2" />
+                                    <Button
+                                        x:Name="moreButton_2"
+                                        Grid.Row="3"
+                                        Grid.Column="0"
+                                        BackgroundColor="#1F6BFF"
+                                        BorderColor="#82A5FF"
+                                        BorderWidth="1"
+                                        Clicked="moreButton_2_Clicked"
+                                        CornerRadius="7"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Bold2.ttf"
+                                        FontSize="12"
+                                        HeightRequest="40"
+                                        HorizontalOptions="Start"
+                                        Text="Подробнее"
+                                        TextColor="White"
+                                        WidthRequest="125" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <Frame
+                        x:Name="Frame3"
+                        Margin="10,15,10,0"
+                        BackgroundColor="Transparent"
+                        HeightRequest="415">
+
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_3"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                HorizontalOptions="Center"
+                                Source="noAutoImg.png"
+                                VerticalOptions="Start"
+                                WidthRequest="350" />
+                            <Frame
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="End"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="45" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_3"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="NoN"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_3"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="NoN"
+                                        TextColor="#E2E2E2" />
+                                    <Button
+                                        x:Name="moreButton_3"
+                                        Grid.Row="3"
+                                        Grid.Column="0"
+                                        BackgroundColor="#1F6BFF"
+                                        BorderColor="#82A5FF"
+                                        BorderWidth="1"
+                                        Clicked="moreButton_3_Clicked"
+                                        CornerRadius="7"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Bold2.ttf"
+                                        FontSize="12"
+                                        HeightRequest="40"
+                                        HorizontalOptions="Start"
+                                        Text="Подробнее"
+                                        TextColor="White"
+                                        WidthRequest="125" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <Frame
+                        x:Name="Frame4"
+                        Margin="10,15,10,0"
+                        BackgroundColor="Transparent"
+                        HeightRequest="415">
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_4"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                HorizontalOptions="Center"
+                                Source="noAutoImg.png"
+                                VerticalOptions="Start"
+                                WidthRequest="350" />
+                            <Frame
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="End"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="45" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_4"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="NoN"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_4"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="NoN"
+                                        TextColor="#E2E2E2" />
+                                    <Button
+                                        x:Name="moreButton_4"
+                                        Grid.Row="3"
+                                        Grid.Column="0"
+                                        BackgroundColor="#1F6BFF"
+                                        BorderColor="#82A5FF"
+                                        BorderWidth="1"
+                                        Clicked="moreButton_4_Clicked"
+                                        CornerRadius="7"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Bold2.ttf"
+                                        FontSize="12"
+                                        HeightRequest="40"
+                                        HorizontalOptions="Start"
+                                        Text="Подробнее"
+                                        TextColor="White"
+                                        WidthRequest="125" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <Frame
+                        x:Name="Frame5"
+                        Margin="10,15,10,0"
+                        BackgroundColor="Transparent"
+                        HeightRequest="415">
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_5"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                HorizontalOptions="Center"
+                                Source="noAutoImg.png"
+                                VerticalOptions="Start"
+                                WidthRequest="350" />
+                            <Frame
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="End"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="45" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_5"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="NoN"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_5"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="NoN"
+                                        TextColor="#E2E2E2" />
+                                    <Button
+                                        x:Name="moreButton_5"
+                                        Grid.Row="3"
+                                        Grid.Column="0"
+                                        BackgroundColor="#1F6BFF"
+                                        BorderColor="#82A5FF"
+                                        BorderWidth="1"
+                                        Clicked="moreButton_5_Clicked"
+                                        CornerRadius="7"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Bold2.ttf"
+                                        FontSize="12"
+                                        HeightRequest="40"
+                                        HorizontalOptions="Start"
+                                        Text="Подробнее"
+                                        TextColor="White"
+                                        WidthRequest="125" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

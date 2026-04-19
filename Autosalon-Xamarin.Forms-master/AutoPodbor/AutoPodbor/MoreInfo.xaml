@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.MoreInfo"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Подробнее"
+    BackgroundColor="Black"
+    BackgroundImageSource="background2.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                x:Name="mark"
+                Padding="25,50,0,0"
+                FontAttributes="Bold"
+                FontFamily="OpenSans-Bold2.ttf"
+                FontSize="34"
+                HorizontalOptions="Start"
+                Text="Марка Модель"
+                TextColor="White" />
+            <ScrollView>
+                <StackLayout>
+                    <Frame
+                        Padding="0"
+                        Margin="25,30,30,0"
+                        BorderColor="DarkGray"
+                        CornerRadius="13"
+                        HeightRequest="220">
+                        <Image
+                            x:Name="img"
+                            Aspect="Fill"
+                            HeightRequest="300"
+                            Source="noAutoImg.png" />
+                    </Frame>
+                    <Label
+                        x:Name="description"
+                        Padding="25,15,25,0"
+                        FontAttributes="Bold"
+                        FontFamily="OpenSans-Bold2.ttf"
+                        FontSize="20"
+                        HorizontalTextAlignment="Start"
+                        Text="Описание авто"
+                        TextColor="White" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="210" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Padding="25,15,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Годы:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="years"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Padding="25,15,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaN-NaN"
+                            TextColor="LightGray" />
+                        <Label
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Цена:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="price"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaN$"
+                            TextColor="LightGray" />
+                        <Label
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Обьём двигателя:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="engineVolume"
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaNл"
+                            TextColor="LightGray" />
+                        <Label
+                            Grid.Row="3"
+                            Grid.Column="0"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Трансмисия:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="transmision"
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaN"
+                            TextColor="LightGray" />
+                        <Label
+                            Grid.Row="4"
+                            Grid.Column="0"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Тип кузова:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="body"
+                            Grid.Row="4"
+                            Grid.Column="1"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaN"
+                            TextColor="LightGray" />
+                        <Label
+                            Grid.Row="5"
+                            Grid.Column="0"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Тип двигателя:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="engine"
+                            Grid.Row="5"
+                            Grid.Column="1"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaN"
+                            TextColor="LightGray" />
+                        <Label
+                            Grid.Row="6"
+                            Grid.Column="0"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="Привод:"
+                            TextColor="White" />
+                        <Label
+                            x:Name="wheelDrive"
+                            Grid.Row="6"
+                            Grid.Column="1"
+                            Padding="25,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="OpenSans-Bold2.ttf"
+                            FontSize="18"
+                            HorizontalTextAlignment="Start"
+                            Text="NaN"
+                            TextColor="LightGray" />
+                    </Grid>
+                    <Button
+                        x:Name="testDriveButton"
+                        Margin="0,30,0,30"
+                        BackgroundColor="#1F6BFF"
+                        BorderColor="#82A5FF"
+                        BorderWidth="1"
+                        Clicked="testDriveButton_Clicked"
+                        CornerRadius="7"
+                        FontAttributes="Bold"
+                        FontFamily="OpenSans-Bold2.ttf"
+                        FontSize="12"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        Text="Тест-драйв"
+                        TextColor="White"
+                        WidthRequest="145" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

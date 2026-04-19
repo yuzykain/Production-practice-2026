@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.Authorization"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:autopodbor="clr-namespace:AutoPodbor"
+    Title="Auth"
+    BackgroundColor="Black"
+    BackgroundImageSource="background2.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Padding="0,170,0,0"
+                FontAttributes="Bold"
+                FontFamily="OpenSans-Bold2.ttf"
+                FontSize="48"
+                HorizontalOptions="Center"
+                Text="Авторизация"
+                TextColor="White" />
+            <autopodbor:CustomEntry
+                x:Name="loginText"
+                Margin="0,45,0,0"
+                BorderColor="White"
+                BorderWidth="4"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                FontSize="17"
+                HeightRequest="45"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                IsCurvedCornersEnabled="True"
+                Placeholder="Логин"
+                PlaceholderColor="Gray"
+                TextColor="White"
+                WidthRequest="285" />
+            <autopodbor:CustomEntry
+                x:Name="passText"
+                Margin="0,10,0,0"
+                BorderColor="White"
+                BorderWidth="4"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                FontSize="17"
+                HeightRequest="45"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                IsCurvedCornersEnabled="True"
+                IsPassword="True"
+                Placeholder="Пароль"
+                PlaceholderColor="Gray"
+                TextColor="White"
+                WidthRequest="285" />
+            <Button
+                x:Name="AuthButton"
+                Margin="0,35,0,0"
+                BackgroundColor="#1F6BFF"
+                BorderColor="White"
+                BorderWidth="2"
+                Clicked="AuthButton_Clicked"
+                CornerRadius="15"
+                FontAttributes="Bold"
+                FontFamily="OpenSans-Bold2.ttf"
+                FontSize="16"
+                HeightRequest="56"
+                HorizontalOptions="Center"
+                Text="Войти"
+                TextColor="White"
+                WidthRequest="285" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

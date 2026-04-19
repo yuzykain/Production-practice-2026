@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.Main"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local1="clr-namespace:AutoPodbor"
+    Title="Главная"
+    x:DataType="local1:MainPage"
+    BackgroundColor="Black"
+    BackgroundImageSource="background2.png"
+    IconImageSource="mainIcon.png">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="0,45,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="42" />
+                </Grid.RowDefinitions>
+            </Grid>
+            <ScrollView x:Name="List">
+                <StackLayout>
+                    <Label
+                        Margin="27,5,0,0"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        Text="Выберите машину"
+                        TextColor="White" />
+                    <Label
+                        Margin="28,8,20,0"
+                        FontSize="14"
+                        Text="Тут вы можете выбрать понравившуюся Вам машину и посмотреть о ней информацию и фотографии"
+                        TextColor="#E2E2E2" />
+
+                    <!-- Первый Frame с изображением -->
+                    <Frame
+                        Margin="5,0,5,0"
+                        BackgroundColor="Transparent"
+                        CornerRadius="12"
+                        HeightRequest="415"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start">
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_1"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                Source="noAutoImg.png"
+                                VerticalOptions="Start"
+                                WidthRequest="350" />
+                            <Frame
+                                Margin="0,0,0,0"
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="EndAndExpand"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="120" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_1"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="Lexus LS"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_1"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="Полноразмерный седан представительского класса, выпускаемый с 1989 года в качестве флагманской модели Lexus, подразделения компании Toyota. 
+                                        На все модели LS устанавливались двигатели конфигурации V8, с приводом на задние колёса либо полным приводом, а также существуют гибридные варианты и модели с длинной колесной базой."
+                                        TextColor="#E2E2E2" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <!-- Второй Frame с изображением -->
+                    <Frame
+                        Margin="5,0,5,0"
+                        BackgroundColor="Transparent"
+                        CornerRadius="12"
+                        HeightRequest="415"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start">
+                        <Grid>
+                            <Image
+                                x:Name="AutoImg_2"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                Source="noAutoImg.jpg" 
+                                VerticalOptions="Start"
+                                WidthRequest="350"/>
+                            <Frame
+                                Margin="0,0,0,0"
+                                BackgroundColor="Black"
+                                CornerRadius="13"
+                                HeightRequest="130"
+                                HorizontalOptions="Center"
+                                VerticalOptions="EndAndExpand"
+                                WidthRequest="310">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="32" />
+                                        <RowDefinition Height="120" />
+                                        <RowDefinition Height="0" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        x:Name="NameLabel_1"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontAttributes="Bold"
+                                        FontSize="27"
+                                        Text="Audi RS7"
+                                        TextColor="White" />
+                                    <Label
+                                        x:Name="DiscriptionLabel_1"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="3"
+                                        Margin="0,4,0,0"
+                                        FontSize="12"
+                                        Text="Спортивный пятидверный фастбэк класса Гран Туризмо, выпускаемый подразделением Audi Sport GmbH на платформе Audi A7."
+                                        TextColor="#E2E2E2" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+         <!-- Второй Frame с изображением -->
+         <Frame
+             Margin="5,0,5,0"
+             BackgroundColor="Transparent"
+             CornerRadius="12"
+             HeightRequest="415"
+             HorizontalOptions="Start"
+             VerticalOptions="Start">
+             <Grid>
+                 <Image
+                     x:Name="AutoImg_2"
+                     Aspect="AspectFit"
+                     HeightRequest="300"
+                     Source="noAutoImg.jpg" 
+                     VerticalOptions="Start"
+                     WidthRequest="350"/>
+                 <Frame
+                     Margin="0,0,0,0"
+                     BackgroundColor="Black"
+                     CornerRadius="13"
+                     HeightRequest="130"
+                     HorizontalOptions="Center"
+                     VerticalOptions="EndAndExpand"
+                     WidthRequest="310">
+                     <Grid>
+                         <Grid.ColumnDefinitions>
+                             <ColumnDefinition Width="200" />
+                             <ColumnDefinition Width="*" />
+                             <ColumnDefinition Width="*" />
+                         </Grid.ColumnDefinitions>
+                         <Grid.RowDefinitions>
+                             <RowDefinition Height="32" />
+                             <RowDefinition Height="120" />
+                             <RowDefinition Height="0" />
+                         </Grid.RowDefinitions>
+                         <Label
+                             x:Name="NameLabel_1"
+                             Grid.Row="0"
+                             Grid.Column="0"
+                             FontAttributes="Bold"
+                             FontSize="27"
+                             Text="Audi RS7"
+                             TextColor="White" />
+                         <Label
+                             x:Name="DiscriptionLabel_1"
+                             Grid.Row="1"
+                             Grid.ColumnSpan="3"
+                             Margin="0,4,0,0"
+                             FontSize="12"
+                             Text="Спортивный пятидверный фастбэк класса Гран Туризмо, выпускаемый подразделением Audi Sport GmbH на платформе Audi A7."
+                             TextColor="#E2E2E2" />
+                     </Grid>
+                 </Frame>
+             </Grid>
+         </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutoPodbor.LoginingProfile"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local1="clr-namespace:AutoPodbor"
+    Title="Профиль"
+    BackgroundColor="Black"
+    BackgroundImageSource="background2.png"
+    IconImageSource="accountIcon.png">
+    <ContentPage.Content>
+        <StackLayout>
+                    <Label
+                Padding="35,100,0,0"
+                FontAttributes="Bold"
+                FontFamily="OpenSans-Bold2.ttf"
+                FontSize="42"
+                HorizontalOptions="Start"
+                Text="Профиль"
+                TextColor="White" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Frame
+                    Margin="35,20,0,0"
+                    BackgroundColor="LightGray"
+                    BorderColor="White"
+                    CornerRadius="13"
+                    HeightRequest="10"
+                    HorizontalOptions="Start"
+                    Opacity="0.15"
+                    VerticalOptions="Start"
+                    WidthRequest="180" />
+                <Label
+                    x:Name="nameText"
+                    Margin="20,30,0,0"
+                    FontSize="21"
+                    HorizontalOptions="Center"
+                    Text="Имя Фамилия"
+                    TextColor="White" />
+                <Frame
+                    Grid.Column="1"
+                    Padding="2"
+                    BackgroundColor="#4664FF"
+                    CornerRadius="60"
+                    HeightRequest="100"
+                    HorizontalOptions="Center"
+                    IsClippedToBounds="True"
+                    VerticalOptions="Start"
+                    WidthRequest="100">
+                    <Frame
+                        Margin="0"
+                        Padding="0"
+                        BackgroundColor="Gray"
+                        CornerRadius="60"
+                        HeightRequest="100"
+                        HorizontalOptions="Center"
+                        IsClippedToBounds="True"
+                        VerticalOptions="Start"
+                        WidthRequest="100">
+                        <Image
+                            Aspect="AspectFill"
+                            HeightRequest="40"
+                            Source="avatar.jpg"
+                            WidthRequest="40" />
+                    </Frame>
+                </Frame>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="170" />
+                </Grid.ColumnDefinitions>
+                <Frame
+                    Margin="35,20,0,0"
+                    BackgroundColor="LightGray"
+                    BorderColor="White"
+                    CornerRadius="13"
+                    HeightRequest="210"
+                    HorizontalOptions="Start"
+                    Opacity="0.15"
+                    VerticalOptions="Start"
+                    WidthRequest="180" />
+                <Label
+                    Margin="30,30,0,0"
+                    FontSize="21"
+                    HorizontalOptions="Center"
+                    Text="Язык"
+                    TextColor="White" />
+                <Frame
+                    Grid.Column="1"
+                    Margin="10,20,0,0"
+                    BackgroundColor="Black"
+                    BorderColor="White"
+                    CornerRadius="13"
+                    HeightRequest="10"
+                    HorizontalOptions="Start"
+                    Opacity="0.25"
+                    VerticalOptions="Start"
+                    WidthRequest="180" />
+            </Grid>
+            <Button
+                Grid.Row="3"
+                x:Name="exitButton"
+                Margin="35,10,0,0"
+                BackgroundColor="#0047FF"
+                BorderColor="White"
+                BorderWidth="0.5"
+                Clicked="exitButton_Clicked"
+                CornerRadius="13"
+                FontAttributes="None"
+                FontSize="21"
+                HeightRequest="55"
+                HorizontalOptions="Start"
+                Opacity="0.9"
+                Text="Выйти"
+                TextTransform="None"
+                WidthRequest="120">
+                <Button.ImageSource HorizontalOptions="End">
+                    <FileImageSource File="exit.png" />
+                </Button.ImageSource>
+
+            </Button>
+                    <Label
+                    Margin="30,20,0,0"
+                    FontSize="21"
+                    HorizontalOptions="Center"
+                    Text="Запросы на тест-драйв"
+                    TextColor="White" />
+            <RefreshView RefreshColor="Teal" x:Name="refresh" Refreshing="refresh_Refreshing">
+                <ScrollView>
+                    <ListView x:Name="requestsList" ItemTapped="requestsList_ItemTapped"/>
+
+                </ScrollView>
+
+      
+            </RefreshView>
+            <Button
+                IsVisible="false"
+                x:Name="adminButton"
+                Margin="0,10,0,0"
+                BackgroundColor="#0047FF"
+                BorderColor="White"
+                BorderWidth="0.5"
+                CornerRadius="15"
+                HorizontalOptions="Center"
+                Text="АДМИН ПАНЕЛЬ"
+                VerticalOptions="End" 
+                Clicked="adminButton_Clicked"
+                />
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
