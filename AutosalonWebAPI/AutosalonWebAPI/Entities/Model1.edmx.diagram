@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="33371195e34f4755bf9d3a6041fd1041" Name="Diagram1">
+        <EntityTypeShape EntityType="AutoShowBDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.Автомобили" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.Договоры" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.Должности" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.Клиенты" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.Поставщики" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.СистемаПодачиТоплива" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.Сотрудники" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.СпособыОплаты" Width="1.5" PointX="3" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.ТестДрайв" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoShowBDModel.ТипДвигателя" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Автомобили_Поставщики" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Автомобили_СистемаПодачиТоплива" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Автомобили_ТипДвигателя" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Договоры_Автомобили" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_ТестДрайв_Автомобили" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Договоры_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Договоры_Сотрудники" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Договоры_СпособыОплаты" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoShowBDModel.FK_Сотрудники_Должности" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
