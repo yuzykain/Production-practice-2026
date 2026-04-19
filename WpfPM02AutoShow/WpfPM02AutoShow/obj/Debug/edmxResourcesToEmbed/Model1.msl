@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PM02AutoShowBDModelContainer" CdmEntityContainer="PM02AutoShowBDEntities1">
+    <EntitySetMapping Name="Автомобили">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.Автомобили">
+        <MappingFragment StoreEntitySet="Автомобили">
+          <ScalarProperty Name="id_Автомобиля" ColumnName="id_Автомобиля" />
+          <ScalarProperty Name="Марка" ColumnName="Марка" />
+          <ScalarProperty Name="КодПоставщика" ColumnName="КодПоставщика" />
+          <ScalarProperty Name="Цвет" ColumnName="Цвет" />
+          <ScalarProperty Name="КоличествоМест" ColumnName="КоличествоМест" />
+          <ScalarProperty Name="МаксимальнаяСкорость" ColumnName="МаксимальнаяСкорость" />
+          <ScalarProperty Name="КодТипаДвигателя" ColumnName="КодТипаДвигателя" />
+          <ScalarProperty Name="РабочийОбъёмДвигателя" ColumnName="РабочийОбъёмДвигателя" />
+          <ScalarProperty Name="КодСистемыПодачиТоплива" ColumnName="КодСистемыПодачиТоплива" />
+          <ScalarProperty Name="РасходТоплива" ColumnName="РасходТоплива" />
+          <ScalarProperty Name="Цена" ColumnName="Цена" />
+          <ScalarProperty Name="ВНаличии" ColumnName="ВНаличии" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Договоры">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.Договоры">
+        <MappingFragment StoreEntitySet="Договоры">
+          <ScalarProperty Name="id_Договора" ColumnName="id_Договора" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="КодСотрудника" ColumnName="КодСотрудника" />
+          <ScalarProperty Name="КодАвтомобиля" ColumnName="КодАвтомобиля" />
+          <ScalarProperty Name="КодКлиента" ColumnName="КодКлиента" />
+          <ScalarProperty Name="КодСпособаОплаты" ColumnName="КодСпособаОплаты" />
+          <ScalarProperty Name="СтатусВыполнения" ColumnName="СтатусВыполнения" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Должности">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.Должности">
+        <MappingFragment StoreEntitySet="Должности">
+          <ScalarProperty Name="id_Должности" ColumnName="id_Должности" />
+          <ScalarProperty Name="НаименованиеДолжности" ColumnName="НаименованиеДолжности" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Клиенты">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.Клиенты">
+        <MappingFragment StoreEntitySet="Клиенты">
+          <ScalarProperty Name="id_клиента" ColumnName="id_клиента" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Поставщики">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.Поставщики">
+        <MappingFragment StoreEntitySet="Поставщики">
+          <ScalarProperty Name="id_Поставщика" ColumnName="id_Поставщика" />
+          <ScalarProperty Name="НаименованиеПоставщика" ColumnName="НаименованиеПоставщика" />
+          <ScalarProperty Name="КонтактнаяИнформация" ColumnName="КонтактнаяИнформация" />
+          <ScalarProperty Name="Примечание" ColumnName="Примечание" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="СистемаПодачиТоплива">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.СистемаПодачиТоплива">
+        <MappingFragment StoreEntitySet="СистемаПодачиТоплива">
+          <ScalarProperty Name="id_СистемыПодачиТоплива" ColumnName="id_СистемыПодачиТоплива" />
+          <ScalarProperty Name="СистемаПодачиТоплива1" ColumnName="СистемаПодачиТоплива" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Сотрудники">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.Сотрудники">
+        <MappingFragment StoreEntitySet="Сотрудники">
+          <ScalarProperty Name="id_Сотрудника" ColumnName="id_Сотрудника" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="КодДолжности" ColumnName="КодДолжности" />
+          <ScalarProperty Name="ДатаРождения" ColumnName="ДатаРождения" />
+          <ScalarProperty Name="ДатаПриёмаНаРаботу" ColumnName="ДатаПриёмаНаРаботу" />
+          <ScalarProperty Name="Зарплата" ColumnName="Зарплата" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Логин" ColumnName="Логин" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="СпособыОплаты">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.СпособыОплаты">
+        <MappingFragment StoreEntitySet="СпособыОплаты">
+          <ScalarProperty Name="id_СпособаОплаты" ColumnName="id_СпособаОплаты" />
+          <ScalarProperty Name="НазваниеСпособаОплаты" ColumnName="НазваниеСпособаОплаты" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ТестДрайв">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.ТестДрайв">
+        <MappingFragment StoreEntitySet="ТестДрайв">
+          <ScalarProperty Name="id_ТестДрайв" ColumnName="id_ТестДрайв" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="Время" ColumnName="Время" />
+          <ScalarProperty Name="КодАвтомобиля" ColumnName="КодАвтомобиля" />
+          <ScalarProperty Name="СтатусВыполнения" ColumnName="СтатусВыполнения" />
+          <ScalarProperty Name="Примечание" ColumnName="Примечание" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ТипДвигателя">
+      <EntityTypeMapping TypeName="PM02AutoShowBDModel.ТипДвигателя">
+        <MappingFragment StoreEntitySet="ТипДвигателя">
+          <ScalarProperty Name="id_ТипаДвигателя" ColumnName="id_ТипаДвигателя" />
+          <ScalarProperty Name="ТипДвигателя1" ColumnName="ТипДвигателя" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

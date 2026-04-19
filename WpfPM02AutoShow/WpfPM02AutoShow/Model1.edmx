@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище PM02AutoShowBDModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Автомобили">
+          <Key>
+            <PropertyRef Name="id_Автомобиля" />
+          </Key>
+          <Property Name="id_Автомобиля" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Марка" Type="nvarchar" MaxLength="100" />
+          <Property Name="КодПоставщика" Type="int" />
+          <Property Name="Цвет" Type="nvarchar" MaxLength="100" />
+          <Property Name="КоличествоМест" Type="nvarchar" MaxLength="100" />
+          <Property Name="МаксимальнаяСкорость" Type="nvarchar" MaxLength="100" />
+          <Property Name="КодТипаДвигателя" Type="int" />
+          <Property Name="РабочийОбъёмДвигателя" Type="nvarchar" MaxLength="100" />
+          <Property Name="КодСистемыПодачиТоплива" Type="int" />
+          <Property Name="РасходТоплива" Type="nvarchar" MaxLength="100" />
+          <Property Name="Цена" Type="money" />
+          <Property Name="ВНаличии" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Договоры">
+          <Key>
+            <PropertyRef Name="id_Договора" />
+          </Key>
+          <Property Name="id_Договора" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Дата" Type="date" />
+          <Property Name="КодСотрудника" Type="int" />
+          <Property Name="КодАвтомобиля" Type="int" />
+          <Property Name="КодКлиента" Type="int" />
+          <Property Name="КодСпособаОплаты" Type="int" />
+          <Property Name="СтатусВыполнения" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Должности">
+          <Key>
+            <PropertyRef Name="id_Должности" />
+          </Key>
+          <Property Name="id_Должности" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="НаименованиеДолжности" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Клиенты">
+          <Key>
+            <PropertyRef Name="id_клиента" />
+          </Key>
+          <Property Name="id_клиента" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ФИО" Type="nvarchar" MaxLength="100" />
+          <Property Name="Телефон" Type="nvarchar" MaxLength="100" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Поставщики">
+          <Key>
+            <PropertyRef Name="id_Поставщика" />
+          </Key>
+          <Property Name="id_Поставщика" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="НаименованиеПоставщика" Type="nvarchar" MaxLength="100" />
+          <Property Name="КонтактнаяИнформация" Type="nvarchar" MaxLength="100" />
+          <Property Name="Примечание" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="СистемаПодачиТоплива">
+          <Key>
+            <PropertyRef Name="id_СистемыПодачиТоплива" />
+          </Key>
+          <Property Name="id_СистемыПодачиТоплива" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="СистемаПодачиТоплива" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Сотрудники">
+          <Key>
+            <PropertyRef Name="id_Сотрудника" />
+          </Key>
+          <Property Name="id_Сотрудника" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ФИО" Type="nvarchar" MaxLength="100" />
+          <Property Name="КодДолжности" Type="int" />
+          <Property Name="ДатаРождения" Type="nvarchar" MaxLength="100" />
+          <Property Name="ДатаПриёмаНаРаботу" Type="nvarchar" MaxLength="100" />
+          <Property Name="Зарплата" Type="nvarchar" MaxLength="100" />
+          <Property Name="Телефон" Type="nvarchar" MaxLength="100" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+          <Property Name="Логин" Type="nvarchar" MaxLength="100" />
+          <Property Name="Пароль" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="СпособыОплаты">
+          <Key>
+            <PropertyRef Name="id_СпособаОплаты" />
+          </Key>
+          <Property Name="id_СпособаОплаты" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="НазваниеСпособаОплаты" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="ТестДрайв">
+          <Key>
+            <PropertyRef Name="id_ТестДрайв" />
+          </Key>
+          <Property Name="id_ТестДрайв" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Дата" Type="date" />
+          <Property Name="Время" Type="nvarchar" MaxLength="100" />
+          <Property Name="КодАвтомобиля" Type="int" />
+          <Property Name="СтатусВыполнения" Type="nvarchar" MaxLength="100" />
+          <Property Name="Примечание" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="ТипДвигателя">
+          <Key>
+            <PropertyRef Name="id_ТипаДвигателя" />
+          </Key>
+          <Property Name="id_ТипаДвигателя" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ТипДвигателя" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="FK_Автомобили_Поставщики">
+          <End Role="Поставщики" Type="Self.Поставщики" Multiplicity="0..1" />
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Поставщики">
+              <PropertyRef Name="id_Поставщика" />
+            </Principal>
+            <Dependent Role="Автомобили">
+              <PropertyRef Name="КодПоставщика" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Автомобили_СистемаПодачиТоплива">
+          <End Role="СистемаПодачиТоплива" Type="Self.СистемаПодачиТоплива" Multiplicity="0..1" />
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="СистемаПодачиТоплива">
+              <PropertyRef Name="id_СистемыПодачиТоплива" />
+            </Principal>
+            <Dependent Role="Автомобили">
+              <PropertyRef Name="КодСистемыПодачиТоплива" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Автомобили_ТипДвигателя">
+          <End Role="ТипДвигателя" Type="Self.ТипДвигателя" Multiplicity="0..1" />
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ТипДвигателя">
+              <PropertyRef Name="id_ТипаДвигателя" />
+            </Principal>
+            <Dependent Role="Автомобили">
+              <PropertyRef Name="КодТипаДвигателя" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_Автомобили">
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Автомобили">
+              <PropertyRef Name="id_Автомобиля" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодАвтомобиля" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_Клиенты">
+          <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Клиенты">
+              <PropertyRef Name="id_клиента" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодКлиента" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_Сотрудники">
+          <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Сотрудники">
+              <PropertyRef Name="id_Сотрудника" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодСотрудника" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_СпособыОплаты">
+          <End Role="СпособыОплаты" Type="Self.СпособыОплаты" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="СпособыОплаты">
+              <PropertyRef Name="id_СпособаОплаты" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодСпособаОплаты" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сотрудники_Должности">
+          <End Role="Должности" Type="Self.Должности" Multiplicity="0..1" />
+          <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Должности">
+              <PropertyRef Name="id_Должности" />
+            </Principal>
+            <Dependent Role="Сотрудники">
+              <PropertyRef Name="КодДолжности" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ТестДрайв_Автомобили">
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="0..1" />
+          <End Role="ТестДрайв" Type="Self.ТестДрайв" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Автомобили">
+              <PropertyRef Name="id_Автомобиля" />
+            </Principal>
+            <Dependent Role="ТестДрайв">
+              <PropertyRef Name="КодАвтомобиля" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище PM02AutoShowBDModelContainer">
+          <EntitySet Name="Автомобили" EntityType="Self.Автомобили" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Договоры" EntityType="Self.Договоры" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Должности" EntityType="Self.Должности" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Клиенты" EntityType="Self.Клиенты" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Поставщики" EntityType="Self.Поставщики" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="СистемаПодачиТоплива" EntityType="Self.СистемаПодачиТоплива" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Сотрудники" EntityType="Self.Сотрудники" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="СпособыОплаты" EntityType="Self.СпособыОплаты" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ТестДрайв" EntityType="Self.ТестДрайв" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ТипДвигателя" EntityType="Self.ТипДвигателя" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Автомобили_Поставщики" Association="Self.FK_Автомобили_Поставщики">
+            <End Role="Поставщики" EntitySet="Поставщики" />
+            <End Role="Автомобили" EntitySet="Автомобили" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Автомобили_СистемаПодачиТоплива" Association="Self.FK_Автомобили_СистемаПодачиТоплива">
+            <End Role="СистемаПодачиТоплива" EntitySet="СистемаПодачиТоплива" />
+            <End Role="Автомобили" EntitySet="Автомобили" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Автомобили_ТипДвигателя" Association="Self.FK_Автомобили_ТипДвигателя">
+            <End Role="ТипДвигателя" EntitySet="ТипДвигателя" />
+            <End Role="Автомобили" EntitySet="Автомобили" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_Автомобили" Association="Self.FK_Договоры_Автомобили">
+            <End Role="Автомобили" EntitySet="Автомобили" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_Клиенты" Association="Self.FK_Договоры_Клиенты">
+            <End Role="Клиенты" EntitySet="Клиенты" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_Сотрудники" Association="Self.FK_Договоры_Сотрудники">
+            <End Role="Сотрудники" EntitySet="Сотрудники" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_СпособыОплаты" Association="Self.FK_Договоры_СпособыОплаты">
+            <End Role="СпособыОплаты" EntitySet="СпособыОплаты" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сотрудники_Должности" Association="Self.FK_Сотрудники_Должности">
+            <End Role="Должности" EntitySet="Должности" />
+            <End Role="Сотрудники" EntitySet="Сотрудники" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ТестДрайв_Автомобили" Association="Self.FK_ТестДрайв_Автомобили">
+            <End Role="Автомобили" EntitySet="Автомобили" />
+            <End Role="ТестДрайв" EntitySet="ТестДрайв" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PM02AutoShowBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Автомобили">
+          <Key>
+            <PropertyRef Name="id_Автомобиля" />
+          </Key>
+          <Property Name="id_Автомобиля" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Марка" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КодПоставщика" Type="Int32" />
+          <Property Name="Цвет" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КоличествоМест" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="МаксимальнаяСкорость" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КодТипаДвигателя" Type="Int32" />
+          <Property Name="РабочийОбъёмДвигателя" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КодСистемыПодачиТоплива" Type="Int32" />
+          <Property Name="РасходТоплива" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Цена" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ВНаличии" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Поставщики" Relationship="Self.FK_Автомобили_Поставщики" FromRole="Автомобили" ToRole="Поставщики" />
+          <NavigationProperty Name="СистемаПодачиТоплива" Relationship="Self.FK_Автомобили_СистемаПодачиТоплива" FromRole="Автомобили" ToRole="СистемаПодачиТоплива" />
+          <NavigationProperty Name="ТипДвигателя" Relationship="Self.FK_Автомобили_ТипДвигателя" FromRole="Автомобили" ToRole="ТипДвигателя" />
+          <NavigationProperty Name="Договоры" Relationship="Self.FK_Договоры_Автомобили" FromRole="Автомобили" ToRole="Договоры" />
+          <NavigationProperty Name="ТестДрайв" Relationship="Self.FK_ТестДрайв_Автомобили" FromRole="Автомобили" ToRole="ТестДрайв" />
+        </EntityType>
+        <EntityType Name="Договоры">
+          <Key>
+            <PropertyRef Name="id_Договора" />
+          </Key>
+          <Property Name="id_Договора" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Дата" Type="DateTime" Precision="0" />
+          <Property Name="КодСотрудника" Type="Int32" />
+          <Property Name="КодАвтомобиля" Type="Int32" />
+          <Property Name="КодКлиента" Type="Int32" />
+          <Property Name="КодСпособаОплаты" Type="Int32" />
+          <Property Name="СтатусВыполнения" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Автомобили" Relationship="Self.FK_Договоры_Автомобили" FromRole="Договоры" ToRole="Автомобили" />
+          <NavigationProperty Name="Клиенты" Relationship="Self.FK_Договоры_Клиенты" FromRole="Договоры" ToRole="Клиенты" />
+          <NavigationProperty Name="Сотрудники" Relationship="Self.FK_Договоры_Сотрудники" FromRole="Договоры" ToRole="Сотрудники" />
+          <NavigationProperty Name="СпособыОплаты" Relationship="Self.FK_Договоры_СпособыОплаты" FromRole="Договоры" ToRole="СпособыОплаты" />
+        </EntityType>
+        <EntityType Name="Должности">
+          <Key>
+            <PropertyRef Name="id_Должности" />
+          </Key>
+          <Property Name="id_Должности" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="НаименованиеДолжности" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Сотрудники" Relationship="Self.FK_Сотрудники_Должности" FromRole="Должности" ToRole="Сотрудники" />
+        </EntityType>
+        <EntityType Name="Клиенты">
+          <Key>
+            <PropertyRef Name="id_клиента" />
+          </Key>
+          <Property Name="id_клиента" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ФИО" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Телефон" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Договоры" Relationship="Self.FK_Договоры_Клиенты" FromRole="Клиенты" ToRole="Договоры" />
+        </EntityType>
+        <EntityType Name="Поставщики">
+          <Key>
+            <PropertyRef Name="id_Поставщика" />
+          </Key>
+          <Property Name="id_Поставщика" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="НаименованиеПоставщика" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КонтактнаяИнформация" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Примечание" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Автомобили" Relationship="Self.FK_Автомобили_Поставщики" FromRole="Поставщики" ToRole="Автомобили" />
+        </EntityType>
+        <EntityType Name="СистемаПодачиТоплива">
+          <Key>
+            <PropertyRef Name="id_СистемыПодачиТоплива" />
+          </Key>
+          <Property Name="id_СистемыПодачиТоплива" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="СистемаПодачиТоплива1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Автомобили" Relationship="Self.FK_Автомобили_СистемаПодачиТоплива" FromRole="СистемаПодачиТоплива" ToRole="Автомобили" />
+        </EntityType>
+        <EntityType Name="Сотрудники">
+          <Key>
+            <PropertyRef Name="id_Сотрудника" />
+          </Key>
+          <Property Name="id_Сотрудника" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ФИО" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КодДолжности" Type="Int32" />
+          <Property Name="ДатаРождения" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ДатаПриёмаНаРаботу" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Зарплата" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Телефон" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Логин" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Пароль" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Договоры" Relationship="Self.FK_Договоры_Сотрудники" FromRole="Сотрудники" ToRole="Договоры" />
+          <NavigationProperty Name="Должности" Relationship="Self.FK_Сотрудники_Должности" FromRole="Сотрудники" ToRole="Должности" />
+        </EntityType>
+        <EntityType Name="СпособыОплаты">
+          <Key>
+            <PropertyRef Name="id_СпособаОплаты" />
+          </Key>
+          <Property Name="id_СпособаОплаты" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="НазваниеСпособаОплаты" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Договоры" Relationship="Self.FK_Договоры_СпособыОплаты" FromRole="СпособыОплаты" ToRole="Договоры" />
+        </EntityType>
+        <EntityType Name="ТестДрайв">
+          <Key>
+            <PropertyRef Name="id_ТестДрайв" />
+          </Key>
+          <Property Name="id_ТестДрайв" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Дата" Type="DateTime" Precision="0" />
+          <Property Name="Время" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="КодАвтомобиля" Type="Int32" />
+          <Property Name="СтатусВыполнения" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Примечание" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Автомобили" Relationship="Self.FK_ТестДрайв_Автомобили" FromRole="ТестДрайв" ToRole="Автомобили" />
+        </EntityType>
+        <EntityType Name="ТипДвигателя">
+          <Key>
+            <PropertyRef Name="id_ТипаДвигателя" />
+          </Key>
+          <Property Name="id_ТипаДвигателя" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ТипДвигателя1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Автомобили" Relationship="Self.FK_Автомобили_ТипДвигателя" FromRole="ТипДвигателя" ToRole="Автомобили" />
+        </EntityType>
+        <Association Name="FK_Автомобили_Поставщики">
+          <End Role="Поставщики" Type="Self.Поставщики" Multiplicity="0..1" />
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Поставщики">
+              <PropertyRef Name="id_Поставщика" />
+            </Principal>
+            <Dependent Role="Автомобили">
+              <PropertyRef Name="КодПоставщика" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Автомобили_СистемаПодачиТоплива">
+          <End Role="СистемаПодачиТоплива" Type="Self.СистемаПодачиТоплива" Multiplicity="0..1" />
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="СистемаПодачиТоплива">
+              <PropertyRef Name="id_СистемыПодачиТоплива" />
+            </Principal>
+            <Dependent Role="Автомобили">
+              <PropertyRef Name="КодСистемыПодачиТоплива" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Автомобили_ТипДвигателя">
+          <End Role="ТипДвигателя" Type="Self.ТипДвигателя" Multiplicity="0..1" />
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ТипДвигателя">
+              <PropertyRef Name="id_ТипаДвигателя" />
+            </Principal>
+            <Dependent Role="Автомобили">
+              <PropertyRef Name="КодТипаДвигателя" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_Автомобили">
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Автомобили">
+              <PropertyRef Name="id_Автомобиля" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодАвтомобиля" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ТестДрайв_Автомобили">
+          <End Role="Автомобили" Type="Self.Автомобили" Multiplicity="0..1" />
+          <End Role="ТестДрайв" Type="Self.ТестДрайв" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Автомобили">
+              <PropertyRef Name="id_Автомобиля" />
+            </Principal>
+            <Dependent Role="ТестДрайв">
+              <PropertyRef Name="КодАвтомобиля" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_Клиенты">
+          <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Клиенты">
+              <PropertyRef Name="id_клиента" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодКлиента" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_Сотрудники">
+          <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Сотрудники">
+              <PropertyRef Name="id_Сотрудника" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодСотрудника" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Договоры_СпособыОплаты">
+          <End Role="СпособыОплаты" Type="Self.СпособыОплаты" Multiplicity="0..1" />
+          <End Role="Договоры" Type="Self.Договоры" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="СпособыОплаты">
+              <PropertyRef Name="id_СпособаОплаты" />
+            </Principal>
+            <Dependent Role="Договоры">
+              <PropertyRef Name="КодСпособаОплаты" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сотрудники_Должности">
+          <End Role="Должности" Type="Self.Должности" Multiplicity="0..1" />
+          <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Должности">
+              <PropertyRef Name="id_Должности" />
+            </Principal>
+            <Dependent Role="Сотрудники">
+              <PropertyRef Name="КодДолжности" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PM02AutoShowBDEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Автомобили" EntityType="Self.Автомобили" />
+          <EntitySet Name="Договоры" EntityType="Self.Договоры" />
+          <EntitySet Name="Должности" EntityType="Self.Должности" />
+          <EntitySet Name="Клиенты" EntityType="Self.Клиенты" />
+          <EntitySet Name="Поставщики" EntityType="Self.Поставщики" />
+          <EntitySet Name="СистемаПодачиТоплива" EntityType="Self.СистемаПодачиТоплива" />
+          <EntitySet Name="Сотрудники" EntityType="Self.Сотрудники" />
+          <EntitySet Name="СпособыОплаты" EntityType="Self.СпособыОплаты" />
+          <EntitySet Name="ТестДрайв" EntityType="Self.ТестДрайв" />
+          <EntitySet Name="ТипДвигателя" EntityType="Self.ТипДвигателя" />
+          <AssociationSet Name="FK_Автомобили_Поставщики" Association="Self.FK_Автомобили_Поставщики">
+            <End Role="Поставщики" EntitySet="Поставщики" />
+            <End Role="Автомобили" EntitySet="Автомобили" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Автомобили_СистемаПодачиТоплива" Association="Self.FK_Автомобили_СистемаПодачиТоплива">
+            <End Role="СистемаПодачиТоплива" EntitySet="СистемаПодачиТоплива" />
+            <End Role="Автомобили" EntitySet="Автомобили" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Автомобили_ТипДвигателя" Association="Self.FK_Автомобили_ТипДвигателя">
+            <End Role="ТипДвигателя" EntitySet="ТипДвигателя" />
+            <End Role="Автомобили" EntitySet="Автомобили" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_Автомобили" Association="Self.FK_Договоры_Автомобили">
+            <End Role="Автомобили" EntitySet="Автомобили" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ТестДрайв_Автомобили" Association="Self.FK_ТестДрайв_Автомобили">
+            <End Role="Автомобили" EntitySet="Автомобили" />
+            <End Role="ТестДрайв" EntitySet="ТестДрайв" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_Клиенты" Association="Self.FK_Договоры_Клиенты">
+            <End Role="Клиенты" EntitySet="Клиенты" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_Сотрудники" Association="Self.FK_Договоры_Сотрудники">
+            <End Role="Сотрудники" EntitySet="Сотрудники" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Договоры_СпособыОплаты" Association="Self.FK_Договоры_СпособыОплаты">
+            <End Role="СпособыОплаты" EntitySet="СпособыОплаты" />
+            <End Role="Договоры" EntitySet="Договоры" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сотрудники_Должности" Association="Self.FK_Сотрудники_Должности">
+            <End Role="Должности" EntitySet="Должности" />
+            <End Role="Сотрудники" EntitySet="Сотрудники" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище PM02AutoShowBDModelContainer" CdmEntityContainer="PM02AutoShowBDEntities1">
+          <EntitySetMapping Name="Автомобили">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.Автомобили">
+              <MappingFragment StoreEntitySet="Автомобили">
+                <ScalarProperty Name="id_Автомобиля" ColumnName="id_Автомобиля" />
+                <ScalarProperty Name="Марка" ColumnName="Марка" />
+                <ScalarProperty Name="КодПоставщика" ColumnName="КодПоставщика" />
+                <ScalarProperty Name="Цвет" ColumnName="Цвет" />
+                <ScalarProperty Name="КоличествоМест" ColumnName="КоличествоМест" />
+                <ScalarProperty Name="МаксимальнаяСкорость" ColumnName="МаксимальнаяСкорость" />
+                <ScalarProperty Name="КодТипаДвигателя" ColumnName="КодТипаДвигателя" />
+                <ScalarProperty Name="РабочийОбъёмДвигателя" ColumnName="РабочийОбъёмДвигателя" />
+                <ScalarProperty Name="КодСистемыПодачиТоплива" ColumnName="КодСистемыПодачиТоплива" />
+                <ScalarProperty Name="РасходТоплива" ColumnName="РасходТоплива" />
+                <ScalarProperty Name="Цена" ColumnName="Цена" />
+                <ScalarProperty Name="ВНаличии" ColumnName="ВНаличии" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Договоры">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.Договоры">
+              <MappingFragment StoreEntitySet="Договоры">
+                <ScalarProperty Name="id_Договора" ColumnName="id_Договора" />
+                <ScalarProperty Name="Дата" ColumnName="Дата" />
+                <ScalarProperty Name="КодСотрудника" ColumnName="КодСотрудника" />
+                <ScalarProperty Name="КодАвтомобиля" ColumnName="КодАвтомобиля" />
+                <ScalarProperty Name="КодКлиента" ColumnName="КодКлиента" />
+                <ScalarProperty Name="КодСпособаОплаты" ColumnName="КодСпособаОплаты" />
+                <ScalarProperty Name="СтатусВыполнения" ColumnName="СтатусВыполнения" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Должности">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.Должности">
+              <MappingFragment StoreEntitySet="Должности">
+                <ScalarProperty Name="id_Должности" ColumnName="id_Должности" />
+                <ScalarProperty Name="НаименованиеДолжности" ColumnName="НаименованиеДолжности" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Клиенты">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.Клиенты">
+              <MappingFragment StoreEntitySet="Клиенты">
+                <ScalarProperty Name="id_клиента" ColumnName="id_клиента" />
+                <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+                <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Поставщики">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.Поставщики">
+              <MappingFragment StoreEntitySet="Поставщики">
+                <ScalarProperty Name="id_Поставщика" ColumnName="id_Поставщика" />
+                <ScalarProperty Name="НаименованиеПоставщика" ColumnName="НаименованиеПоставщика" />
+                <ScalarProperty Name="КонтактнаяИнформация" ColumnName="КонтактнаяИнформация" />
+                <ScalarProperty Name="Примечание" ColumnName="Примечание" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="СистемаПодачиТоплива">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.СистемаПодачиТоплива">
+              <MappingFragment StoreEntitySet="СистемаПодачиТоплива">
+                <ScalarProperty Name="id_СистемыПодачиТоплива" ColumnName="id_СистемыПодачиТоплива" />
+                <ScalarProperty Name="СистемаПодачиТоплива1" ColumnName="СистемаПодачиТоплива" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Сотрудники">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.Сотрудники">
+              <MappingFragment StoreEntitySet="Сотрудники">
+                <ScalarProperty Name="id_Сотрудника" ColumnName="id_Сотрудника" />
+                <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+                <ScalarProperty Name="КодДолжности" ColumnName="КодДолжности" />
+                <ScalarProperty Name="ДатаРождения" ColumnName="ДатаРождения" />
+                <ScalarProperty Name="ДатаПриёмаНаРаботу" ColumnName="ДатаПриёмаНаРаботу" />
+                <ScalarProperty Name="Зарплата" ColumnName="Зарплата" />
+                <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Логин" ColumnName="Логин" />
+                <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="СпособыОплаты">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.СпособыОплаты">
+              <MappingFragment StoreEntitySet="СпособыОплаты">
+                <ScalarProperty Name="id_СпособаОплаты" ColumnName="id_СпособаОплаты" />
+                <ScalarProperty Name="НазваниеСпособаОплаты" ColumnName="НазваниеСпособаОплаты" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ТестДрайв">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.ТестДрайв">
+              <MappingFragment StoreEntitySet="ТестДрайв">
+                <ScalarProperty Name="id_ТестДрайв" ColumnName="id_ТестДрайв" />
+                <ScalarProperty Name="Дата" ColumnName="Дата" />
+                <ScalarProperty Name="Время" ColumnName="Время" />
+                <ScalarProperty Name="КодАвтомобиля" ColumnName="КодАвтомобиля" />
+                <ScalarProperty Name="СтатусВыполнения" ColumnName="СтатусВыполнения" />
+                <ScalarProperty Name="Примечание" ColumnName="Примечание" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ТипДвигателя">
+            <EntityTypeMapping TypeName="PM02AutoShowBDModel.ТипДвигателя">
+              <MappingFragment StoreEntitySet="ТипДвигателя">
+                <ScalarProperty Name="id_ТипаДвигателя" ColumnName="id_ТипаДвигателя" />
+                <ScalarProperty Name="ТипДвигателя1" ColumnName="ТипДвигателя" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

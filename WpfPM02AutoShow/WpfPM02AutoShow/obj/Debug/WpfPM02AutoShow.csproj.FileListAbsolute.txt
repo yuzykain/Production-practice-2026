@@ -1,0 +1,163 @@
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.AssemblyReference.cache
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.SuggestedBindingRedirects.cache
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\MainWindow.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\App.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_Content.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_MarkupCompile.cache
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_MarkupCompile.lref
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.exe.config
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.exe
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.pdb
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.dll
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.xml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\MainWindow.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.g.resources
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.Properties.Resources.resources
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.GenerateResource.cache
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.CoreCompileInputs.cache
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.CopyComplete
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.exe
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.pdb
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AccountantWindow.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\GeneralManagerWindow.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\ManagerWindow.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Cars.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\RegWindow.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\SupervisorWindow.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AddPageCars.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AccountantWindow.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\GeneralManagerWindow.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\ManagerWindow.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Cars.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\RegWindow.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\SupervisorWindow.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AddPageCars.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\App.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Employees.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Employees.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddEmployees.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddEmployees.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddClients.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\ListOfClients.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddClients.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\ListOfClients.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTreaties.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTreaties.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTreaties.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTreaties.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTestDrives.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTestDrives.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTestDrives.g.cs
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTestDrives.baml
+C:\Users\zomch\source\repos\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.ResolveComReference.cache
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.AssemblyReference.cache
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.ResolveComReference.cache
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AccountantWindow.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AddPageCars.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\GeneralManagerWindow.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\MainWindow.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\ManagerWindow.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddClients.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddEmployees.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTestDrives.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTreaties.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Cars.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Employees.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\ListOfClients.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTestDrives.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTreaties.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\RegWindow.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\SupervisorWindow.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\App.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_Content.g.cs
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_MarkupCompile.cache
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_MarkupCompile.lref
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.exe
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.pdb
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\App.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AccountantWindow.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AddPageCars.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\GeneralManagerWindow.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\MainWindow.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\ManagerWindow.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddClients.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddEmployees.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTestDrives.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTreaties.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Cars.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Employees.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\ListOfClients.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTestDrives.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTreaties.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\RegWindow.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\SupervisorWindow.baml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.g.resources
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.exe.config
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.exe
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.pdb
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.dll
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.xml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.Properties.Resources.resources
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.GenerateResource.cache
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.CoreCompileInputs.cache
+C:\Users\dmitr\Downloads\Telegram Desktop\Программа_и_БД_по_производственной_практике_ПМ_02\Программа и БД по производственной практике ПМ.02\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02A.30665671.Up2Date
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.exe.config
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.exe
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\WpfPM02AutoShow.pdb
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.dll
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.xml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.AssemblyReference.cache
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.ResolveComReference.cache
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AccountantWindow.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AddPageCars.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\GeneralManagerWindow.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\MainWindow.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\ManagerWindow.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddClients.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddEmployees.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTestDrives.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTreaties.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Cars.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Employees.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\ListOfClients.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTestDrives.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTreaties.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\RegWindow.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\SupervisorWindow.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\App.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_Content.g.cs
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_MarkupCompile.cache
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow_MarkupCompile.lref
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\App.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AccountantWindow.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\AddPageCars.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\GeneralManagerWindow.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\MainWindow.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\ManagerWindow.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddClients.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddEmployees.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTestDrives.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\AddPageTreaties.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Cars.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\Employees.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\ListOfClients.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTestDrives.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\Pages\PageTreaties.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\RegWindow.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\SupervisorWindow.baml
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.g.resources
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.Properties.Resources.resources
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.GenerateResource.cache
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.csproj.CoreCompileInputs.cache
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02A.30665671.Up2Date
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.exe
+C:\Users\Valery Krylov\OneDrive\Рабочий стол\Производственная практика 2024\Производственная практика 2024\Производственная практика\Производственная практика\Приложения\WpfPM02AutoShow\WpfPM02AutoShow\obj\Debug\WpfPM02AutoShow.pdb

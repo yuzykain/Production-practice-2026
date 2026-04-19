@@ -1,0 +1,54 @@
+﻿<Page x:Class="WpfPM02AutoShow.AddPageCars"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPM02AutoShow"
+        mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+        Title="AddPageCars">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <TextBlock Text="Код автомобиля" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Марка" Grid.Row="1" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Поставщик" Grid.Row="2" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Цвет" Grid.Row="3" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Количество мест" Grid.Row="4" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Максимальная скорость" Grid.Row="5" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Тип двигателя" Grid.Row="6" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Рабочий объем двигателя" Grid.Row="7" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Система подачи топлива" Grid.Row="8" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Расход топлива" Grid.Row="9" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button Content="Сохранить" Grid.Row="10" x:Name="BtnSave" Click="BtnSave_Click" Margin="166,12,228,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="Black" Foreground="Black" Grid.ColumnSpan="2" Height="41" Grid.RowSpan="2" />
+        <TextBox Text="{Binding id_Автомобиля}" Grid.Column="1" HorizontalAlignment="Left" Margin="39,0,0,0" TextWrapping="Wrap" Width="261" Height="24"/>
+        <TextBox Text="{Binding Марка}" Grid.Column="1" HorizontalAlignment="Left" Margin="39,0,0,0" TextWrapping="Wrap" Width="261" Height="24" Grid.Row="1"/>
+        <ComboBox SelectedItem="{Binding Поставщики.НаименованиеПоставщика}" x:Name="ComboGroup" DisplayMemberPath="insurance_name" Grid.Column="1" Grid.Row="2" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding Цвет}" Grid.Column="1" Grid.Row="3" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding КоличествоМест}" Grid.Column="1" Grid.Row="4" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding Максимальная_скорость}" Grid.Column="1" Grid.Row="5" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding Тип_двигателя}" Grid.Column="1" Grid.Row="6" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding Рабочий_объем_двигателя}" Grid.Column="1" Grid.Row="7" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding Система_подачи_топлива}" Grid.Column="1" Grid.Row="8" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+        <TextBox Text="{Binding Расход_топлива}" Grid.Column="1" Grid.Row="9" Width="261" HorizontalAlignment="Left" Margin="39,0,0,0"/>
+
+    </Grid>
+</Page>
